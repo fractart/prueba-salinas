@@ -1,9 +1,9 @@
 <template>
   <div class="usuarios bg-light py-5">
     <div class="container">
-      <h2 class="text-center mb-4">Lista de Usuarios</h2>
+      <h2 class="text-center mb-4">Lista de Empleados</h2>
       <table class="table table-hover table-bordered table-striped mt-3" v-if="users.length > 0">
-        <thead class="table-dark">
+        <thead class="table-dark text-center">
           <tr>
             <th>Foto</th>
             <th>Nombre</th>
@@ -82,7 +82,9 @@
             ></textarea>
             <div class="invalid-feedback">{{ errors.message }}</div>
           </div>
-          <button type="submit" class="btn btn-primary">Enviar</button>
+          <div class="text-center">
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </div>
         </form>
       </div>
     </div>
