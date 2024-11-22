@@ -57,10 +57,6 @@ Los archivos optimizados se generarán en la carpeta `/dist`.
 
 ---
 
-## **Estructura del Proyecto**
-
----
-
 ## **Características del Proyecto**
 
 ### **Inicio**
